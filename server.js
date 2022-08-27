@@ -36,7 +36,7 @@ router.post("/contact", (req, res) => {
   const mail = {
     from: name,
     to: "umbrecon@icloud.com",
-    subject: "Contact Form Submission,
+    subject: "Contact Form Submission",
     html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>
            <p>Phone: ${phone}</p>
