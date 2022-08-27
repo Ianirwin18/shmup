@@ -14,7 +14,11 @@
 	src: url('./assets/font/CentraNo2-Book.ttf');
 	font-weight: 400;
 }
-
+@font-face {
+  font-family: Silkscreen;
+  src: url('./assets/font/Silkscreen-Regular.ttf');
+  font-weight: 400;
+}
 /************ Default Css ************/
 * {
   margin: 0;
@@ -33,7 +37,7 @@ body {
   position: relative;
   background-color: #121212 !important;
   color: #fff !important;
-  font-family: 'Centra', sans-serif !important;
+  font-family: 'Silkscreen', sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -230,6 +234,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+.tutorial-tag {
+  text-decoration: none;
+  color: #fff;
+  font-size: xx-large;
+}
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -306,7 +316,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: linear-gradient(90.21deg, black -5.91%, cadetblue 111.58%);
+  background: linear-gradient(90.21deg, black -5.91%, rgb(236, 11, 236) 111.58%);
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -397,6 +407,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
+
 }
 .project .nav.nav-pills .nav-link.active {
     border: 1px solid black;
