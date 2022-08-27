@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/shippp.svg";
+import headerImg from "../assets/img/astro.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+
 
 
 
@@ -49,7 +50,7 @@ export const Banner = () => {
       setIndex(prevIndex => prevIndex + 1);
     }
   }
-
+  let navigate = useNavigate ()
   return (
     <section className="banner" id="home">
       <Container>
@@ -61,8 +62,10 @@ export const Banner = () => {
                 
                 <h1>{`Welcome to S.H.I.P!! By:`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Alex Hull", "Justin Lee", "Ian Irwin", "Connor Mitchener" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <a href="https://itch.io/embed-upload/6359148?color=742e82" className="tutorial-tag">Tutorial
-                 <ArrowRightCircle size={25} /></a>
+                  <button type="button" onClick={() => navigate("/Game")}>
+                    Tutorial
+                    <ArrowRightCircle size={25} />
+                 </button>
               </div>}
             </TrackVisibility>
           </Col>
