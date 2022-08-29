@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
+import projImg1 from "../assets/img/powerups.gif";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -14,6 +14,7 @@ export const Projects = () => {
       title: "Level 1",
       description: "Design & Development",
       imgUrl: projImg1,
+
       
     },
     {
@@ -26,27 +27,13 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: projImg3,
     },
-    {
-      title: "Level 4",
-      description: "Coming Soon",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Level 5",
-      description: "Coming Soon",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Level 6",
-      description: "Coming Soon",
-      imgUrl: projImg3,
-    },
+  
     
   
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>

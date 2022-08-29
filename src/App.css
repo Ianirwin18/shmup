@@ -240,6 +240,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: xx-large;
 }
 
+.logo {
+  width: 150px;
+}
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -429,6 +433,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  height: 640px;
 }
 .proj-imgbx::before {
   content: "";
