@@ -248,7 +248,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/space.png');
+  background-image: url('./assets/img/neb.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -320,7 +320,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: linear-gradient(90.21deg, black -5.91%, rgb(236, 11, 236) 111.58%);
+  background: linear-gradient(90.21deg,  white,rgb(48, 3, 172) -5.91%,  black, rgba(235, 7, 7, 0.747) 111.58%, white);
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -437,7 +437,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg,rgb(48, 3, 172) -5.91%,  black, rgba(235, 7, 7, 0.747) 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -484,7 +484,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background-image: url('./assets/img/neb.png');
   padding: 60px 0 200px 0;
 }
 .contact img {
