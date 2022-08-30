@@ -62,7 +62,7 @@ export const Banner = () => {
                 
                 <h1>{`Welcome to S.H.I.P!! By:`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Alex Hull", "Justin Lee", "Ian Irwin", "Connor Mitchener" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <button type="button" onClick={() => navigate("/Game")}>
+                  <button type="button" onClick={() => navigate("/Tutorial")}>
                     Tutorial
                     <ArrowRightCircle size={25} />
                  </button>
