@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/powerups.gif";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import level1banner from "../assets/img/level1banner.png";
+import level2banner from "../assets/img/level2banner.png";
+import level3banner from "../assets/img/level3banner.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -12,20 +12,20 @@ export const Projects = () => {
   const projects = [
     {
       title: "Level 1",
-      description: "Design & Development",
-      imgUrl: projImg1,
-
+      description: "Text here",
+      imgUrl: level1banner,
+    
       
     },
     {
       title: "Level 2",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      description: "Text here",
+      imgUrl: level2banner,
     },
     {
       title: "Level 3",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      description: "Text here",
+      imgUrl: level3banner,
     },
   
     
@@ -64,6 +64,7 @@ export const Projects = () => {
                                 key={index}
                                 {...project}
                                 />
+                            
                             )
                           })
                         }
@@ -82,7 +83,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="alt"></img>
     </section>
   )
 }
