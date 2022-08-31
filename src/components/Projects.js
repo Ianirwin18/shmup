@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import level1banner from "../assets/img/level1banner.png";
 import level2banner from "../assets/img/level2banner.png";
 import level3banner from "../assets/img/level3banner.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
+import kozmo from "../assets/img/kozmo.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -73,7 +73,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt="alt"></img>
+      <img className="background-image-right" src={kozmo} alt="alt"></img>
     </section>
   )
 }
