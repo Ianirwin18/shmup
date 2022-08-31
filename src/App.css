@@ -96,7 +96,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: black;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -180,7 +180,7 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
-  color: #121212;
+  color: black;
 }
 .navbar-text button:hover::before {
 	content: "";
@@ -320,7 +320,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: linear-gradient(90.21deg,  white,rgb(48, 3, 172) -5.91%,  black, rgba(235, 7, 7, 0.747) 111.58%, white);
+  background: linear-gradient(90.21deg, rgb(48, 3, 172) -5.91%,  black, rgba(235, 7, 7, 0.747) 111.58%);
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -541,7 +541,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button::before {
   content: "";
-  background: #121212;
+  background:  linear-gradient(rgb(48, 3, 172) -5.91%,  black, rgba(235, 7, 7, 0.747) 111.58%);
   width: 0;
   height: 100%;
   position: absolute;

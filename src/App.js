@@ -9,6 +9,7 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { Tutorial } from "./components/Tutorial";
 import { Game } from "./components/Game";
+import { Login } from "./components/Login";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
@@ -24,6 +25,7 @@ function App() {
               <Crew />
               <Projects />
               <Contact />
+              <Login />
             </>} />
           <Route path="/Tutorial" element={<Tutorial />} />
          
