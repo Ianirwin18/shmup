@@ -59,7 +59,7 @@ a:hover {
 
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 button {
@@ -446,6 +446,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx:hover::before {
   height: 100%;
+  cursor: pointer;
 }
 .proj-txtx {
   position: absolute;
@@ -641,3 +642,4 @@ iframe {
   margin-bottom: 15%;
   width: 40%;
 }
+
