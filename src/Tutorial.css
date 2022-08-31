@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tutorial-container{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.tutorial-container h1{
+    padding: 60px 0;
+    color: white;
+    font-size: 44px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.tutorial-col{
+   flex-basis: 50%;
+   min-width: 250px; 
+}
+
+.char-img-buzz{
+   width: 83%;
+   margin: auto;
+   position: relative;
+   border-radius: 6px;
+   overflow: hidden;
+}
+
+.tutorial-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-ta-row{
+    display: flex;
+    background: purple;
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 85%;
+    height: 175px;
+}
+
