@@ -35,7 +35,7 @@ export const Crew = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Meet the Crew</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>The three Leads of the Programming Elite Squardian team you'll find are bellow.<br></br> The three experimental on board S.H.I.P. AIs you will also find down bellow. Click on anyones portrait to learn more all about them. --J.L.2473</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
@@ -48,6 +48,18 @@ export const Crew = () => {
                             <div className="item">
                                 <img src={meter3} alt="Image" />
                                 <h5>Lt. Colonel</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter4} alt="Image" />
+                                <h5>Web Sibilings</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter5} alt="Image" />
+                                <h5>The Snakes</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter6} alt="Image" />
+                                <h5>The Nonexistent</h5>
                             </div>
   
                         </Carousel>
