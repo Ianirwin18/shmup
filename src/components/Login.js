@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import axios from "axios";
-import AuthService from "../utils/auth.service";
+import AuthService from "../utils/auth";
 
 const Login = () => {
   const [email, setEmail] = useState("");
