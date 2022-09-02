@@ -59,7 +59,7 @@ a:hover {
 
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 button {
@@ -173,14 +173,14 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #fff;
+  background:  linear-gradient(rgb(48, 3, 172) -5.91%,  black, rgba(235, 7, 7, 0.747) 111.58%);
   left: 0;
   top: 0;
   z-index: -1;
   transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
-  color: black;
+  color: white;
 }
 .navbar-text button:hover::before {
 	content: "";
@@ -335,7 +335,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    margin: 14px 0 75px 0;
+    margin: 14px 0 45px 0;
 }
 .skill-slider {
   width: 80%;
@@ -352,6 +352,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+
+.skill button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  margin-bottom: 50px;
+}
+
+.skill button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.skill button:hover svg {
+  margin-left: 25px;
 }
 
 /************ Projects Css ************/
@@ -446,6 +464,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx:hover::before {
   height: 100%;
+  cursor: pointer;
 }
 .proj-txtx {
   position: absolute;
@@ -641,3 +660,6 @@ iframe {
   margin-bottom: 15%;
   width: 40%;
 }
+
+
+
