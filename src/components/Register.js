@@ -1,25 +1,25 @@
-import { useState } from "react";
+import React, { useState } from "react";
+import axios from "axios";
 import { Container, Row, Col } from "react-bootstrap";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-import axios from "axios";
-import AuthService from "../utils/auth";
 
-const Login = () => {
+const Register = () => {
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [confPassword, setConfPassword] = useState("");
   const [msg, setMsg] = useState("");
 
-  const Auth = async (e) => {
+  const RegisterUser = async (e) => {
     e.preventDefault();
     try {
-      const request = await axios.post("http://localhost:8000/login", {
+      await axios.post("http://localhost:8000/users", {
+        name: name,
         email: email,
         password: password,
+        confPassword: confPassword,
       });
-      if (request) {
-        AuthService.login(request.token);
-      }
     } catch (error) {
       if (error.response) {
         setMsg(error.response.data.msg);
@@ -38,14 +38,22 @@ const Login = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Log In</h2>
-                  <form onSubmit={Auth}>
+                  <h2>Sign-Up</h2>
+                  <form onSubmit={RegisterUser}>
                     <Row>
                       <Col size={12} sm={6} className="px-1">
                         <input
-                          type="email"
+                          type="text"
+                          value={name}
+                          placeholder="Name"
+                          onChange={(e) => setName(e.target.value)}
+                        />
+                      </Col>
+                      <Col size={12} sm={6} className="px-1">
+                        <input
+                          type="text"
                           value={email}
-                          placeholder="Email Address"
+                          placeholder="Email"
                           onChange={(e) => setEmail(e.target.value)}
                         />
                       </Col>
@@ -53,8 +61,16 @@ const Login = () => {
                         <input
                           type="password"
                           value={password}
-                          placeholder="Password"
+                          placeholder="**********"
                           onChange={(e) => setPassword(e.target.value)}
+                        />
+                      </Col>
+                      <Col size={12} sm={6} className="px-1">
+                        <input
+                          type="password"
+                          value={confPassword}
+                          placeholder="**********"
+                          onChange={(e) => setConfPassword(e.target.value)}
                         />
                       </Col>
                       <Col size={12} className="px-1">
@@ -85,4 +101,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;
