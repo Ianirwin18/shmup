@@ -1,7 +1,8 @@
-import logo from "./logo.svg";
-import "./App.css";
-import "./Tutorial.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import logo from './logo.svg';
+import './App.css';
+import './Tutorial.css'
+import './Bio.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Crew } from "./components/Crew";
@@ -20,7 +21,8 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route
+
+         <Route
             path="/"
             element={
               <>
