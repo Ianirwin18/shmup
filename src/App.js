@@ -1,6 +1,7 @@
-import logo from "./logo.svg";
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import logo from './logo.svg';
+import './App.css';
+import './Tutorial.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Crew } from "./components/Crew";
@@ -11,6 +12,7 @@ import { Tutorial } from "./components/Tutorial";
 import { Game } from "./components/Game";
 import Login from "./components/Login";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Bio } from "./components/Bio";
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
           />
           <Route path="/Tutorial" element={<Tutorial />} />
         </Routes>
+          <Route path="/Bio" element={<Bio />} />
+        </Routes>      
         <Footer />
       </BrowserRouter>
     </div>
