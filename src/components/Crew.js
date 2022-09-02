@@ -1,6 +1,9 @@
 import meter1 from "../assets/img/buzz.png";
 import meter2 from "../assets/img/courage.png";
 import meter3 from "../assets/img/goku.png";
+import meter4 from "../assets/img/goku.png";
+import meter5 from "../assets/img/goku.png";
+import meter6 from "../assets/img/goku.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
