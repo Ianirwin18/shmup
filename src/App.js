@@ -11,6 +11,7 @@ import { Footer } from "./components/Footer";
 import { Tutorial } from "./components/Tutorial";
 import { Game } from "./components/Game";
 import { Login } from "./components/Login";
+import { Bio } from "./components/Bio";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
@@ -29,7 +30,7 @@ function App() {
               <Login />
             </>} />
           <Route path="/Tutorial" element={<Tutorial />} />
-         
+          <Route path="/Bio" element={<Bio />} />
         </Routes>      
         <Footer />
       </BrowserRouter>

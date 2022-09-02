@@ -173,14 +173,14 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #fff;
+  background:  linear-gradient(rgb(48, 3, 172) -5.91%,  black, rgba(235, 7, 7, 0.747) 111.58%);
   left: 0;
   top: 0;
   z-index: -1;
   transition: 0.3s ease-in-out;
 }
 .navbar-text button:hover {
-  color: black;
+  color: white;
 }
 .navbar-text button:hover::before {
 	content: "";
