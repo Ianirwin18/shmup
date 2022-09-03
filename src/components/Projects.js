@@ -30,20 +30,6 @@ export const Projects = () => {
       title: "Level 2",
       description: (
         <iframe
-          src="https://itch.io/embed/1689450"
-          width="50"
-          height="50"
-          frameborder="0"
-        >
-          <a href="https://ianirwin18.itch.io/level-3">level 3 by ianirwin18</a>
-        </iframe>
-      ),
-      imgUrl: level2banner,
-    },
-    {
-      title: "Level 3",
-      description: (
-        <iframe
           frameborder="0"
           src="https://itch.io/embed/1687678"
           width="50"
@@ -54,6 +40,20 @@ export const Projects = () => {
           </a>
         </iframe>
       ),  
+      imgUrl: level2banner,
+    },
+    {
+      title: "Level 3",
+        description: (
+          <iframe
+            src="https://itch.io/embed/1689450"
+            width="50"
+            height="50"
+            frameborder="0"
+          >
+            <a href="https://ianirwin18.itch.io/level-3">level 3 by ianirwin18</a>
+          </iframe>
+        ),
       imgUrl: level3banner,
     },
 
