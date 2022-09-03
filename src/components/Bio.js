@@ -65,7 +65,7 @@ export const Bio = () => {
   <img src={ bugs } alt="Snakes" class='card-img'></img>
   <h1>The Bugs</h1>
   <p class='title'>AI</p>
-  <p> The Bugs are the greatest threat to humanity; they infect our major infrastructure and cause catastrophes. They are the reason the S.H.I.P. program was created to fight back against the Bugs. </p>
+  <p> The Bugs are the greatest threat to humanity; they infect our major infrastructure and cause catastrophes. They are the reason the S.H.I.P. program was created to fight back against the Bugs. Most information about the Bugs such as their origin and motives are still unkown to the originzation further observations are being done by agent P.H.0404. The picture displayed for the Bugs is the best picture that we were able to capture of their leader who refers to himself as The Final Syntax. Many agents were lost in the attempt of gaining knowledge on them they are highly dangerous if you encounter any in the field take extreme percations.</p>
 
 </div>
 </div>
