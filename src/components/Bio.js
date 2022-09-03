@@ -4,6 +4,8 @@ import erikbio from "../assets/img/Nick-Final.jpg";
 import python from "../assets/img/pythonab.png";
 import web from "../assets/img/web.png";
 import ship from "../assets/img/logoshipbio.png";
+import non from "../assets/img/ue.png";
+import bugs from "../assets/img/bugs.png";
 
 
 
@@ -53,17 +55,17 @@ export const Bio = () => {
 
 </div>
 <div class="card">
-  <img src={ web } alt='web' class='card-img'></img>
-  <h1>Web Siblings</h1>
+  <img src={ non } alt='web' class='card-img'></img>
+  <h1 class="non">The Nonexistent</h1>
   <p class='title'>AI</p>
-  <p>The Web Siblings AI was originally created with one personality but for some unknown reason it fractured into three personalities and calls each other their siblings, our engineers haven't been able to find any reason as to why it would hinder their abilities. We are keeping a close eye to monitor their progress and will send further updates.</p>
+  <p>The Nonexistent AI is an anomaly that showed up in our database one day.He's extremely aggressive to the Bugs and is constantly looking for a fight to in his words better himself. The engineering team is extremely wary of this AI and have paired him with operator N.G.8434 to keep a close eye on him. Further updates will be added.</p>
 
 </div>
 <div class="card">
-  <img src={ python } alt="Snakes" class='card-img'></img>
-  <h1>The Snakes</h1>
+  <img src={ bugs } alt="Snakes" class='card-img'></img>
+  <h1>The Bugs</h1>
   <p class='title'>AI</p>
-  <p> The Snakes Ai started out as two separate personalities but one consumed the other and took on traits of the other. This hasn't caused any issues with the AIs performance to this date. Our engineers are keeping an eye on the program to make sure it doesn't consume any other AIs. But strangely it does seem to love to consume the data fragments left behind from the destroyed bugs.</p>
+  <p> The Bugs are the greatest threat to humanity; they infect our major infrastructure and cause catastrophes. They are the reason the S.H.I.P. program was created to fight back against the Bugs. </p>
 
 </div>
 </div>
