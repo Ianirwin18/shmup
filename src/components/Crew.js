@@ -4,6 +4,8 @@ import meter3 from "../assets/img/erik-no-background.png";
 import meter4 from "../assets/img/web.png";
 import meter5 from "../assets/img/pythonab.png";
 import meter6 from "../assets/img/ue.png";
+import meter7 from "../assets/img/logoship.png";
+import meter8 from "../assets/img/ue.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -72,6 +74,14 @@ export const Crew = () => {
                 <div className="item">
                   <img src={meter6} alt="Image" />
                   <h5>The Nonexistent</h5>
+                </div>
+                <div className="item">
+                  <img src={meter7} alt="Image" />
+                  <h5>S.H.I.P. Program</h5>
+                </div>
+                <div className="item">
+                  <img src={meter8} alt="Image" />
+                  <h5>The Bugs</h5>
                 </div>
 
               </Carousel>
