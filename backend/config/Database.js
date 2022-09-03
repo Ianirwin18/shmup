@@ -1,9 +1,8 @@
 import { Sequelize } from "sequelize";
 
-const db = new Sequelize("auth_db", "root", "root", {
-  host: "localhost",
-  dialect: "mysql",
-  port: 8889,
-});
+const db = new Sequelize(
+  "mysql://lcyu8fohffzh5hbo:k1dtr1pny2whcbmv@r98du2bxwqkq3shg.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/bowp4il7jyftk184",
+  {}
+);
 
 export default db;
