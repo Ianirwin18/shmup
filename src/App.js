@@ -14,6 +14,7 @@ import { Game } from "./components/Game";
 import Login from "./components/Login";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Bio } from "./components/Bio";
+import { Download } from "./components/Download";
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
           />
           <Route path="/Tutorial" element={<Tutorial />} />
           <Route path="/Bio" element={<Bio />} />
+          <Route path="/Download" element={<Download />} />
+          
         </Routes>
         <Footer />
       </BrowserRouter>

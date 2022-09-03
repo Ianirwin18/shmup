@@ -9,6 +9,7 @@ import {
   BrowserRouter as Router
 } from "react-router-dom";
 
+
 export const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');
@@ -46,6 +47,7 @@ export const NavBar = () => {
               <Nav.Link href="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>About</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Levels</Nav.Link>
+          
               
             </Nav>
             <span className="navbar-text">

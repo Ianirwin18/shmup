@@ -6,6 +6,7 @@ import level3banner from "../assets/img/level3banner.png";
 import kozmo from "../assets/img/kozmo.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { Link, useNavigate } from "react-router-dom";
 
 export const Projects = () => {
 
@@ -60,7 +61,7 @@ export const Projects = () => {
 
 
   ];
-
+  let navigate = useNavigate();
   return (
     <section className="project" id="projects">
       <Container>
@@ -70,7 +71,9 @@ export const Projects = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Levels</h2>
+                  <button type="button" onClick={() => navigate("/Download")}>Download</button>
                   <p>Hover over one of the banners and click the download button to download the game if your confused on how to download click the how to button to learn more. --A.U.1245</p>
+                  
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
 
                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
