@@ -98,7 +98,7 @@ export const Tutorial = () => {
                                     </div>
                                 </div>
                                 <div class="incoming_msg">
-                                    <div class="incoming_msg_img"> <img src={nick} alt="sunil"></img> </div>
+                                    <div class="incoming_msg_img"> <img src={erik} alt="sunil"></img> </div>
                                     <div class="received_msg">
                                         <div class="received_withd_msg">
                                             <p> <img src={ hyper } alt="hyper"></img>
