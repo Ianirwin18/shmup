@@ -5,7 +5,7 @@ import meter4 from "../assets/img/web.png";
 import meter5 from "../assets/img/pythonab.png";
 import meter6 from "../assets/img/ue.png";
 import meter7 from "../assets/img/logoship.png";
-import meter8 from "../assets/img/ue.png";
+import meter8 from "../assets/img/bugs.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -52,11 +52,11 @@ export const Crew = () => {
               </button>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter2} alt="Image" />
                   <h5>Warrant Officer</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
+                  <img src={meter1} alt="Image" />
                   <h5>Space Commander</h5>
                 </div>
                 <div className="item">
