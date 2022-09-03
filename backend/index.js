@@ -1,11 +1,12 @@
-import express from "express";
-import dotenv from "dotenv";
-import cookieParser from "cookie-parser";
-import cors from "cors";
-import db from "./config/Database.js";
-import router from "./routes/index.js";
+const express = require("express");
+const dotenv = require("dotenv");
+const cookieParser = require("cookie-parser");
+const router = require("./routes/index.js");
+const path = require("path");
 dotenv.config();
 const app = express();
+app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, "../build")));
 
 // app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
 app.use(cookieParser());
