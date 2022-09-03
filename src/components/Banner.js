@@ -61,7 +61,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 
                 <h1>{`Welcome to S.H.I.P!! By:`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Alex Hull", "Justin Lee", "Ian Irwin", "Connor Mitchener" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>The time is 34702343776 the infmaous coding wars has been going on for generations, you've been recruited by the legendary agent A.A.7824 to join the Programers in their war against the evil Bugs. You're expected to pilot one of the three experimental S.H.I.P. crafts but have no fear you brand new recruit you have three of our very best commanders to teach you the ways of the S.H.I.P... Good Luck recruit may the syntax be with you --I.I.3565</p>
+                  <p>The time is 34702343776 the infamous coding wars has been going on for generations, you've been recruited by the legendary agent A.A.7824 to join the Programers in their war against the evil Bugs. You're expected to pilot one of the three experimental S.H.I.P. crafts but have no fear you brand new recruit you have three of our very best commanders to teach you the ways of the S.H.I.P... Good Luck recruit may the syntax be with you --I.I.3565</p>
                   <button type="button" onClick={() => navigate("/Tutorial")}>
                     Tutorial
                     <ArrowRightCircle size={25} />
