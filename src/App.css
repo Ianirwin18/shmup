@@ -662,5 +662,39 @@ iframe {
   width: 40%;
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 100px;
+  text-align: center;
+  color: black;
+  margin-top: 200px;
+  margin-bottom: 1%;
+  
+ 
+  
+  
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+  
+}
+
+
+.card-image {
+width: 100%;
+} 
+
+.bio {
+  background-image: url('./assets/img/biobg.png');
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
 
 
