@@ -28,10 +28,9 @@
   },
   "scripts": {
     "start": "node ./backend/index.js",
-    "build": "react-scripts build && cd backend && npm install",
+    "build": "react-scripts build && cd backend && npm install && cd ..",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "install": "npm install"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
