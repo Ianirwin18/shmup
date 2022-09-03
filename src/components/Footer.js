@@ -14,6 +14,10 @@ export const Footer = () => {
             <img src={logo} alt="Logo" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
+          <div class="credit">
+    <li><a href="https://frutuoso.carrd.co/#">Artist for Crew</a></li>
+    <li>< a href="https://www.instagram.com/lolli__chi/">Link for AI Art</a></li>
+</div>
       
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
